@@ -1,0 +1,15 @@
+Classe: Track
+    title: String
+    artist: String
+    album: String
+    duration: int
+    year: String
+
+Classe: Playlist
+    title: String
+    Track[]
+
+Classe: Player
+    queue: Track []
+    currentTrack: Track
+    isPlaying: boolean
